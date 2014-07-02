@@ -5,7 +5,7 @@
   "description" : "Hides annoying Google+ notifications bell from Google pages",
   "content_scripts": [
     {
-      "matches": ["*://*.google.com/*"],
+      "matches": ["*://*.google.com/*", "*://*.youtube.com/*"],
       "css": ["style.css"]
     }
   ]

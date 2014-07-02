@@ -1,1 +1,4 @@
-.gb_Ta > a.gb_y[href*='notifications'] { display: none !important; }
+.gb_Ta > a.gb_y[href*='notifications'],  /* Google */
+#sb-button-notify {                      /* YouTube */
+  display: none !important;
+}
