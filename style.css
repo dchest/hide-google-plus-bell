@@ -1,4 +1,5 @@
 div > a[href*='notifications'],  /* Google */
+div.gb_Ka.gb_f,
 #sb-button-notify {              /* YouTube */
   display: none !important;
 }
